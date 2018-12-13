@@ -10,17 +10,13 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { UiModule } from './ui/ui.module';
-import { TimeEntryComponent } from './time-entry/time-entry.component';
-import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TimeEntryComponent,
     HomeComponent,
     LoginComponent,
-    RegisterComponent,
-    ProfileComponent
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
